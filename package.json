@@ -1,0 +1,21 @@
+{
+  "name": "microfrontends",
+  "version": "1.0.0",
+  "description": "Microfrontend architecture with React and Module Federation",
+  "private": true,
+  "scripts": {
+    "install:all": "npm install && cd shell && npm install && cd ../products && npm install && cd ../cart && npm install",
+    "start:shell": "cd shell && npm start",
+    "start:products": "cd products && npm start",
+    "start:cart": "cd cart && npm start",
+    "build:all": "cd shell && npm run build && cd ../products && npm run build && cd ../cart && npm run build"
+  },
+  "keywords": [
+    "microfrontends",
+    "react",
+    "module-federation",
+    "webpack"
+  ],
+  "author": "",
+  "license": "MIT"
+}
